@@ -1,0 +1,151 @@
+/* Google Font Imports */
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+
+/* WebKit */
+::-webkit-scrollbar {
+    display: none;
+}
+
+/* Global Styling */
+body {
+    font-family: 'Roboto Slab', serif;
+}
+
+/* Parallax Header */
+
+.parallax-background {
+    width: 100%;
+    height: 50vh;
+}
+
+.parallax-background > img {
+    width: 100%;
+    height: 130%;
+}
+
+.parallax-title-container {
+    width: 80%;
+    height: 10vh;
+    color: black;
+    position: relative;
+    top: 40%;
+    left: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.parallax-title-container > h1 {
+    font-size: 28px;
+}
+
+.parallax-title-container > hr {
+    width: 60%;
+}
+
+.parallax-down-arrow {
+    width: 20%;
+    height: 10%;
+    position: relative;
+    top: 78%;
+    left: 40%;
+}
+
+.down-arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 10px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    position: absolute;
+    left: 35%;
+    top: 40%;
+}
+
+/* About Section */
+.about-section-container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.about-section-picture {
+    width: 55%;
+    height: 30%;
+    border-radius: 50%;
+    border: 1px solid #696969;
+    background-image: url("../../assets/profile-picture.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.about-section-intro {
+    color: #696969;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-section-bio {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+/* Media Queries */
+@media only screen and (min-width: 768px){
+    /* Parallax Section */
+    .parallax-title-container {
+        width: 60%;
+        left: 20%;
+    }
+
+    .parallax-title-container > h1 {
+        font-size: 60px;
+    }
+
+    .parallax-title-container > hr {
+        width: 70%;
+    }
+
+    .parallax-title-container > h2 {
+        font-size: 30px;
+    }
+
+    .down-arrow {
+        padding: 23px;
+        top: 30%;
+    }
+}
+
+@media only screen and (min-width: 1024px){
+    /* Parallax Section */
+    .parallax-title-container {
+        width: 40%;
+        left: 30%;
+    }
+
+    .parallax-title-container > h1 {
+        font-size: 40px
+    }
+
+    .parallax-title-container > hr {
+        width: 60%;
+    }
+
+    .parallax-title-container > h2 {
+        font-size: 25px;
+    }
+
+    .down-arrow {
+        display: none;
+    }
+}
