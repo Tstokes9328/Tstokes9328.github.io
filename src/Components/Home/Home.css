@@ -28,7 +28,7 @@ body {
     height: 10vh;
     color: black;
     position: relative;
-    top: 40%;
+    top: 35%;
     left: 10%;
     display: flex;
     flex-direction: column;
@@ -74,6 +74,10 @@ body {
     align-items: center;
 }
 
+.about-section-title {
+    font-size: 20px;
+}
+
 .about-section-picture {
     width: 55%;
     height: 30%;
@@ -98,6 +102,8 @@ body {
     justify-content: space-between;
     align-items: center;
     text-align: center;
+    font-size: 16px;
+    margin: 0 5%;
 }
 
 /* Media Queries */
@@ -124,6 +130,24 @@ body {
         padding: 23px;
         top: 30%;
     }
+
+    /* About Section */
+    .about-section-title {
+        font-size: 40px;
+    }
+
+    .about-section-picture {
+        width: 40%;
+    }
+
+    .about-section-intro {
+        font-size: 35px;
+    }
+
+    .about-section-bio {
+        font-size: 24px;
+    }
+
 }
 
 @media only screen and (min-width: 1024px){
@@ -146,6 +170,36 @@ body {
     }
 
     .down-arrow {
-        display: none;
+        left: 40%;
+    }
+
+    /* About Section */
+    .about-section-container {
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .about-section-picture {
+        width: 25%;
+        height: 40%;
+        border-radius: 50%;
+        border: 1px solid #696969;
+        background-image: url("../../assets/profile-picture.jpeg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 0 60%;
+    }
+
+    .about-section-intro {
+        font-size: 35px;
+    }
+
+    .about-section-bio {
+        font-size: 24px;
+        margin: 0 4%;
     }
 }

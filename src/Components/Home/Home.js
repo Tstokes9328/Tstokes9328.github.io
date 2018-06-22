@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import {Parallax} from 'react-parallax';
+import FontAwesome from 'react-fontawesome';
 
 //Styling
 import 'reset-css';
@@ -9,12 +10,10 @@ import './Home.css';
 import Navbar from '../Navbar/Navbar';
 
 export default class Home extends Component {
-
+  
   render() {
     return (
       <div>
-        {/* Navbar */}
-        <Navbar />
         
         {/* Parallax Header */}
         <Parallax 
@@ -25,7 +24,7 @@ export default class Home extends Component {
         bgHeight={'120vh'}
         bgWidth={'100rem'}
         >
-          <div style={{height: '93vh'}}>
+          <div style={{height: '100vh'}}>
             <div className="parallax-title-container">
               <h1>TAYTE STOKES</h1>
                 <hr />
@@ -38,8 +37,16 @@ export default class Home extends Component {
           </div>
         </Parallax>
 
+        {/* Navbar */}
+        <Navbar />
+
         {/* About Section */}
         <div className="about-section-container">
+
+          <div className="about-section-title">
+            <h1>ABOUT</h1>
+          </div>
+
           <div className="about-section-picture">
           </div>
 
@@ -55,6 +62,9 @@ export default class Home extends Component {
               <p>I'm also a serious food person so if you ever in the area and need someone to grab a slice of pizza with, let me know!</p>
           </div>
         </div>
+
+        {/*  */}
+
       </div>
     )
   }
