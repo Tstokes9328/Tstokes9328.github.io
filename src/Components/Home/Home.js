@@ -1,6 +1,12 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 import {Parallax} from 'react-parallax';
 import FontAwesome from 'react-fontawesome';
+
+//Fontawesome
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
+//React Sticky
+import {StickyContainer, Sticky} from 'react-sticky';
 
 //Styling
 import 'reset-css';
@@ -14,7 +20,6 @@ export default class Home extends Component {
   render() {
     return (
       <div>
-        
         {/* Parallax Header */}
         <Parallax 
         blur={.8}
@@ -31,6 +36,11 @@ export default class Home extends Component {
               <h2>Web Developer</h2>
             </div>
 
+            <div className="icon-container">
+              <a href={'https://github.com/Tstokes9328'}><FontAwesomeIcon icon={['fab', 'github']} /></a>
+              <a href={'https://www.linkedin.com/in/tayte-stokes-1a545b165/'}><FontAwesomeIcon icon={['fab', 'linkedin']} /></a>
+            </div>
+
             <div className="parallax-down-arrow">
               <div className="down-arrow"/>
             </div>
@@ -38,7 +48,9 @@ export default class Home extends Component {
         </Parallax>
 
         {/* Navbar */}
-        <Navbar />
+        <div className="navbar-container">
+          <Navbar />
+        </div>
 
         {/* About Section */}
         <div className="about-section-container">
@@ -64,7 +76,8 @@ export default class Home extends Component {
         </div>
 
         {/*  */}
-
+        <div className="test">
+        </div>
       </div>
     )
   }
