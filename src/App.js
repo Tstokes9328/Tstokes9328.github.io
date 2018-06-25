@@ -2,11 +2,10 @@ import React, { Component } from 'react';
 
 //Font Awesome
 import { library } from '@fortawesome/fontawesome-svg-core';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { fab } from '@fortawesome/free-brands-svg-icons';
 
-//Routes
-import Routes from './routes';
+//Components
+import Home from './Components/Home/Home';
 
 class App extends Component {
   render() {
@@ -16,7 +15,7 @@ class App extends Component {
 
     return (
       <div>
-        {Routes}
+        <Home />
       </div>
     );
   }

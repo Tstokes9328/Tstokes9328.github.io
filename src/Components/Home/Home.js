@@ -1,12 +1,8 @@
 import React, { Component } from 'react';
 import {Parallax} from 'react-parallax';
-import FontAwesome from 'react-fontawesome';
 
 //Fontawesome
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-
-//React Sticky
-import {StickyContainer, Sticky} from 'react-sticky';
 
 //Styling
 import 'reset-css';
@@ -75,8 +71,8 @@ export default class Home extends Component {
           </div>
         </div>
 
-        {/*  */}
         <div className="test">
+
         </div>
       </div>
     )

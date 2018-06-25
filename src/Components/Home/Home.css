@@ -12,6 +12,7 @@ body {
 }
 
 /* Parallax Header */
+
 .parallax-background {
     width: 100%;
     height: 50vh;
@@ -89,10 +90,6 @@ body {
     position: -webkit-sticky;
     position: sticky;
     top: 0px;
-}
-
-.test {
-    height: 100vh;
 }
 
 /* About Section */
@@ -209,13 +206,13 @@ body {
     .icon-container {
         font-size: 45px;
         width: 10%;
-        left: 44.5%;
+        left: 45%;
     }
 
     .down-arrow {
-        left: 43%;
+        left: 44%;
         border-width: 0 2px 2px 0;
-        padding: 20px;
+        padding: 13px;
     }
 
     /* About Section */
