@@ -111,7 +111,7 @@ export default class Home extends Component {
               />
             </div>
             <h1>Music</h1>
-            <p>I'm bad at making but I love listening to it</p>
+            <p>I'm bad at making it but I love listening to it</p>
           </div>
         </div>
 
@@ -259,6 +259,8 @@ export default class Home extends Component {
             </div>
           </div>
         </div>
+
+        <div className="bottom-triangle-four"></div>
 
         <div className="contact-container">
           <h2>

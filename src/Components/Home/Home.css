@@ -659,8 +659,15 @@ body {
     background-color: green; */
     position: absolute;
     border-top: 38px solid #333A42;
-    border-right: 50vw solid #eeeeee;
-    border-left: 50vw solid #eeeeee;
+    border-right: 50vw solid transparent;
+    border-left: 50vw solid transparent;
+}
+
+.bottom-triangle-four {
+    position: absolute;
+    border-top: 38px solid white;
+    border-right: 50vw solid transparent;
+    border-left: 50vw solid transparent;
 }
 
 
@@ -674,7 +681,6 @@ body {
     justify-content: space-around;
     align-items: center;
     margin-top: 10%;
-    background-color: #eeeeee;
 }
 .skateboard-hobby-container {
     width: 90%;
@@ -804,7 +810,7 @@ body {
 
 .bottom-triangle-two {
     position: absolute;
-    border-top: 38px solid #eeeeee;
+    border-top: 38px solid white;;
     border-right: 50vw solid transparent;
     border-left: 50vw solid transparent;
 }
@@ -823,7 +829,7 @@ body {
 }
 
 .contact-container > h2 {
-    margin-top: 12%;
+    margin-top: 15%;
 }
 
 .contact-container > h3 {
@@ -955,13 +961,16 @@ body {
         margin-top: 8%;
     }
 
+    .about-me-container {
+        height: 45vh;
+    }
+
     .profile-picture {
         width: 45%;
-        height: 45%;
-        background-position: 0 -80px;
+        height: 70%;
+        background-position: 0 -105px;
         border-radius: 50%;
         border: 3px solid #F1ECE9;
-        margin-top: 10%;
     }
     
     .about-me-container > h1 {
@@ -974,6 +983,40 @@ body {
     
     .about-me-container > h3 {
         font-size: 22px;
+    }
+
+    /* Bio */
+    .bio-container {
+        width: 100%;
+        height: 30vh;
+        /* background-color: #485058;  */
+        background-color: #333A42;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    
+    .bio-container > h1 {
+        color: #D7443F;
+        font-size: 25px;
+        margin-top: 3%;
+    }
+    
+    .bio-container > p {
+        text-align: center;
+        font-size: 18px;
+        margin: 3% 5%;
+        line-height: 125%;
+        color: #F1ECE9;
+    }
+    
+    .bottom-triangle {
+        /* height: 5vh;
+        background-color: green; */
+        border-top: 75px solid #333A42;
+        border-right: 50vw solid transparent;
+        border-left: 50vw solid transparent;
     }
     
     /* Hobbies Container */
@@ -1101,7 +1144,7 @@ body {
 
 .what-I-do-container > h1 {
     position: absolute;
-    top: 860px;
+    top: 800px;
     z-index: -1;
 }
 
@@ -1182,7 +1225,7 @@ body {
 
 /* Skills Section */
 .skills-section {
-    height: 150vh;
+    height: 130vh;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -1209,8 +1252,8 @@ body {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    height: 10%;
-    width: 10%;
+    height: 7%;
+    width: 7%;
 }
 
 .row-one-box-one > img {
@@ -1229,8 +1272,8 @@ body {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    height: 10%;
-    width: 10%;
+    height: 7%;
+    width: 7%;
 }
 
 .row-one-box-two > img {
@@ -1249,8 +1292,8 @@ body {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    height: 10%;
-    width: 10%;
+    height: 7%;
+    width: 7%;
 }
 
 .row-one-box-three > img {
@@ -1279,8 +1322,8 @@ body {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    height: 10%;
-    width: 10%;
+    height: 7%;
+    width: 7%;
 }
 
 .row-two-box-one > img {
@@ -1298,8 +1341,8 @@ body {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    height: 10%;
-    width: 10%;
+    height: 7%;
+    width: 7%;
 }
 
 .row-two-box-two > img {
@@ -1317,8 +1360,8 @@ body {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    height: 10%;
-    width: 10%;
+    height: 7%;
+    width: 7%;
 }
 
 .row-two-box-three > img {
@@ -1345,8 +1388,8 @@ body {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    height: 10%;
-    width: 10%;
+    height: 7%;
+    width: 7%;
 }
 
 .row-three-box-one > img {
@@ -1365,8 +1408,8 @@ body {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    height: 10%;
-    width: 10%;
+    height: 7%;
+    width: 7%;
 }
 
 .row-three-box-two > img {
@@ -1384,8 +1427,8 @@ body {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    height: 10%;
-    width: 10%;
+    height: 7%;
+    width: 7%;
 }
 
 .row-three-box-three > img {
@@ -1412,8 +1455,8 @@ body {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    height: 10%;
-    width: 10%;
+    height: 7%;
+    width: 7%;
 }
 
 .row-four-box-one > img {
@@ -1431,8 +1474,8 @@ body {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    height: 10%;
-    width: 10%;
+    height: 7%;
+    width: 7%;
 }
 
 .row-four-box-two > img {
@@ -1451,8 +1494,8 @@ body {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    height: 10%;
-    width: 10%;
+    height: 7%;
+    width: 7%;
 }
 
 .row-four-box-three > img {
@@ -1479,8 +1522,8 @@ body {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    height: 10%;
-    width: 10%;
+    height: 7%;
+    width: 7%;
 }
 
 .row-five-box-one > img {
@@ -1498,8 +1541,8 @@ body {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    height: 10%;
-    width: 10%;
+    height: 7%;
+    width: 7%;
 }
 
 .row-five-box-two > img {
@@ -1518,8 +1561,8 @@ body {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    height: 10%;
-    width: 10%;
+    height: 7%;
+    width: 7%;
 }
 
 .row-five-box-three > img {
@@ -1535,38 +1578,77 @@ body {
 /* About Me Section */
 
 .about-me-container {
-    height: 50vh;
+    width: 100%;
+    height: 35vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #333A42;
+    border-top: 2px solid #D7443F;
 }
 
 .profile-picture {
-    width: 14%;
-    height: 45%;
-    background-position: 0 -55px;
+    width: 20%;
+    height: 85%;
+    background-position: 0 -75px;
     border-radius: 50%;
     border: 3px solid #F1ECE9;
     margin-top: 3%;
 }
 
-.about-me-container > h1 {
-    font-size: 25px;
+/* Bio */
+.bio-container {
+    width: 100%;
+    height: 28vh;
+    /* background-color: #485058;  */
+    background-color: #333A42;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.bio-container > h1 {
     color: #D7443F;
+    font-size: 30px;
+}
+
+.bio-container > p {
+    text-align: center;
+    font-size: 20px;
+    margin: 0 30%;
+    line-height: 100%;
+    color: #F1ECE9;
     margin-top: 1%;
 }
 
-.about-me-container > h2 {
-    text-align: center;
-    font-size: 15px;
-    margin-top: 2%;
-    line-height: 10%;
-    color: #F1ECE9;
+.bottom-triangle {
+    margin-left: 32%;
+    border-top: 8vh solid #333A42;
+    border-right: 18vw solid transparent;
+    border-left: 18vw solid transparent;
 }
 
-.about-me-container > h3 {
-    text-align: center;
-    font-size: 15px;
-    margin-top: 0;
-    line-height: 10%;
-    color: #F1ECE9;
+.bottom-triangle-two {
+    margin-left: 32%;
+    border-top: 8vh solid white;
+    border-right: 18vw solid transparent;
+    border-left: 18vw solid transparent;
+}
+
+.bottom-triangle-three {
+    margin-left: 32%;
+    border-top: 8vh solid #333A42;
+    border-right: 18vw solid transparent;
+    border-left: 18vw solid transparent;
+}
+
+.bottom-triangle-four {
+    margin-left: 32%;
+    border-top: 8vh solid white;
+    border-right: 18vw solid transparent;
+    border-left: 18vw solid transparent;
 }
 
 /* Hobbies Section */
@@ -1574,6 +1656,7 @@ body {
     width: 100%;
     height: 70vh;
     flex-direction: row;
+    margin-top: 5%;
 }
 .skateboard-hobby-container {
     width: 20%;
@@ -1697,13 +1780,17 @@ body {
 }
 
 /* Contact Section */
+.contact-container {
+    height: 25vh;
+}
+
 .contact-container > h2 {
-    margin-top: 4%;
-    font-size: 20px;
+    margin-top: 6%;
+    font-size: 18px;
 }
 
 .contact-container > h3 {
-    margin-top: 3%;
-    font-size: 20px;
+    margin-top: 2%;
+    font-size: 18px;
 }
 }
