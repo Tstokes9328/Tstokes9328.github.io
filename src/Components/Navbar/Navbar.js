@@ -1,4 +1,6 @@
 import React, {Component} from 'react'
+import {Link} from 'react-router-dom';
+
 
 //StyleSheets
 import 'reset-css';
@@ -18,10 +20,9 @@ class Navbar extends Component{
       <div className="navbar-container">
         <section className="navbar-main-design">
           <ul>
-            <li>About</li>
-            <li>Skills</li>
-            <li>Portfolio</li>
-            <li>Contact</li>
+            <Link to="/"><li>Home</li></Link>
+            <Link to="/about"><li>About Me</li></Link>
+            <Link to=""><li>Portfolio</li></Link>
           </ul>
         </section>
   

@@ -1,0 +1,14 @@
+.footer-container {
+    width: 100%;
+    height: 8vh;
+    background-color: #333A42;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-container > h1 {
+    color: #F1ECE9;
+    font-size: 10px;
+}
