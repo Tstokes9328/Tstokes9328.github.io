@@ -101,10 +101,13 @@ body {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+    background-color: #333A42;
 }
 
 .what-I-do-container > h1 {
     font-size: 35px;
+    margin-top: 10%;
+    color: #F1ECE9;
 }
 
 .front-end-container {
@@ -217,10 +220,17 @@ body {
     line-height: 125%;
 }
 
+.bottom-triangle-three {
+    position: absolute;
+    border-top: 38px solid #333A42;
+    border-right: 50vw solid transparent;
+    border-left: 50vw solid transparent;
+}
+
 /* Skills Section */
 
 .skills-section {
-    height: 100vh;
+    height: 130vh;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -229,7 +239,8 @@ body {
 }
 
 .skills-section > h1 {
-    font-size: 30px;
+    font-size: 35px;
+    margin-top: 12%;
 }
 
 /* row one */
@@ -580,6 +591,7 @@ body {
     justify-content: space-around;
     align-items: center;
     background-color: #333A42;
+    border-top: 2px solid #D7443F;
 }
 
 .profile-picture {
@@ -646,9 +658,9 @@ body {
     /* height: 5vh;
     background-color: green; */
     position: absolute;
-    border-top: 30px solid #333A42;
-    border-right: 50vw solid transparent;
-    border-left: 50vw solid transparent;
+    border-top: 38px solid #333A42;
+    border-right: 50vw solid #eeeeee;
+    border-left: 50vw solid #eeeeee;
 }
 
 
@@ -662,6 +674,7 @@ body {
     justify-content: space-around;
     align-items: center;
     margin-top: 10%;
+    background-color: #eeeeee;
 }
 .skateboard-hobby-container {
     width: 90%;
@@ -788,16 +801,10 @@ body {
     line-height: 125%;
 }
 
-.what-i-do-title {
-    width: 100%;
-    height: 10vh;
-    background-color: #333A42;
-    border-top: 3px solid #D7443F;
-}
 
 .bottom-triangle-two {
     position: absolute;
-    border-top: 30px solid #333A42;
+    border-top: 38px solid #eeeeee;
     border-right: 50vw solid transparent;
     border-left: 50vw solid transparent;
 }

@@ -115,15 +115,11 @@ export default class Home extends Component {
           </div>
         </div>
 
-        {/* What I do title */}
-          <div className="what-i-do-title">
-                
-          </div>
-
           <div className="bottom-triangle-two"></div>
 
         {/* What I Do Section */}
         <div className="what-I-do-container">
+          <h1>Here's what I do</h1>
           <div className="front-end-container">
             <div className="front-end-logo-container">
               <img src={require("../../assets/front-end-logo.png")} />
@@ -164,9 +160,11 @@ export default class Home extends Component {
           </div>
         </div>
 
+         <div className="bottom-triangle-three"></div>
+        
         {/* Skills Section */}
         <div className="skills-section">
-          <h1>Check out my skills</h1>
+          <h1>Skills</h1>
 
           <div className="row-one">
             <div className="row-one-box-one">
