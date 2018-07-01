@@ -59,7 +59,7 @@ export default class Home extends Component {
         {/* Bio Ccontainer */}
         <div className="bio-container">
           <h1>Hey, I'm Tayte!</h1>
-          <p>I'm a simple guy who loves to do not so simple things. When I'm not hunch-backed over my computer writing code you can catch me kicking butt in Super Smash Bros, burying my face in a killer book, or spending some time doing a couple of my hobbies.</p>
+          <p>I'm a simple guy who loves to do not so simple things. When I'm not hunched over my computer writing code you can catch me kicking butt in Super Smash Bros, burying my face in a killer book, or spending some time doing a couple of my hobbies.</p>
         </div>
 
         <div className="bottom-triangle"></div>
@@ -262,6 +262,34 @@ export default class Home extends Component {
 
         <div className="bottom-triangle-four"></div>
 
+        {/* Portfolio Section */}
+        <div className="portfolio-container">
+            <div className="portfolio-title-container">
+                <h1>Portfolio</h1>
+            </div>
+            
+            <div className="portfolio-project-one-container">
+            <div className="portfolio-title-info-container">
+                <div className="project-one-title">
+                  <h1>Utah Car Meet</h1>
+                </div>
+
+                  <div className="project-one-info">
+                    <p>Utah Car Meet is a Full-Stack web application I created to make an easier way for car enthusiasts in Utah to host and attend car meets.</p>
+                    <br />
+                    <p>On the front-end I used Javascript, React, and Redux to create a user friendly application. The back end consists of NodeJs, ExpressJs, and Massive to handle user data and connect to the database with PostgreSQL</p>
+                  </div>
+                  </div>
+
+                  <div className="project-one-display">
+                    <div className="computer-screen">
+                      <img src={require("./../../assets/utahcarmeet.png")} alt="utah car meet"/>
+                    </div>
+                  </div>
+              </div>
+        </div>
+
+
         <div className="contact-container">
           <h2>
             <FontAwesomeIcon icon="envelope" /> Taytestokes9328@gmail.com
@@ -270,6 +298,7 @@ export default class Home extends Component {
             <FontAwesomeIcon icon="mobile-alt" /> 801-664-9328
           </h3>
         </div>
+
 
         {/* Footer */}
         <Footer />
