@@ -1959,7 +1959,7 @@ body {
     position: relative;
 }
 
-.computer-screen > img {
+.computer-screen > a > img {
     position: absolute;
     width: 460px;
     height: 290px;
