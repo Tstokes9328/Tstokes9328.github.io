@@ -4,6 +4,9 @@ import { Parallax } from "react-parallax";
 //Fontawesome
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
+//Bootstrap
+import {Carousel} from 'react-bootstrap';
+
 //Styling
 import "reset-css";
 import "./Home.css";
@@ -278,15 +281,18 @@ export default class Home extends Component {
                     <p>Utah Car Meet is a Full-Stack web application I created to make an easier way for car enthusiasts in Utah to host and attend car meets.</p>
                     <br />
                     <p>On the front-end I used Javascript, React, and Redux to create a user friendly application. The back end consists of NodeJs, ExpressJs, and Massive to handle user data and connect to the database with PostgreSQL</p>
-
-                    <p>Click on the site to see the code</p>
                   </div>
                   </div>
 
                   <div className="project-one-display">
-                    <div className="computer-screen">
-                      <a href="https://github.com/Tstokes9328/dev-mtn-personal"><img src={require("./../../assets/utahcarmeet.png")} alt="utah car meet"/></a>
-                    </div>
+                    <Carousel style={{border: '3px solid #F1ECE9'}}>
+                      <Carousel.Item>
+                        <img width={900} height={500} alt="900x500" src={require('../../assets/utahcarmeet.png')} />
+                      </Carousel.Item>
+                      <Carousel.Item>
+                        <img width={900} height={500} alt="900x500" src={require('../../assets/dashboardutm.png')} />
+                      </Carousel.Item>
+                    </Carousel>
                   </div>
               </div>
         </div>

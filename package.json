@@ -10,6 +10,7 @@
     "install": "^0.11.0",
     "npm": "^6.1.0",
     "react": "^16.4.1",
+    "react-bootstrap": "^0.32.1",
     "react-dom": "^16.4.1",
     "react-instagram-embed": "^1.4.0",
     "react-parallax": "^1.8.0",
