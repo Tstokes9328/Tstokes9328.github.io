@@ -280,7 +280,7 @@ export default class Home extends Component {
                   <div className="project-one-info">
                     <p>Utah Car Meet is a Full-Stack web application I created to make an easier way for car enthusiasts in Utah to host and attend car meets.</p>
                     <br />
-                    <p>On the front-end I used Javascript, React, and Redux to create a user friendly application. The back end consists of NodeJs, ExpressJs, and Massive to handle user data and connect to the database with PostgreSQL</p>
+                    <p>On the front-end I used Javascript, React, and Redux to create a user friendly application. The back-end consists of NodeJs, ExpressJs, and Massive. Using PostgreSQL for the database.</p>
                   </div>
                   </div>
 
