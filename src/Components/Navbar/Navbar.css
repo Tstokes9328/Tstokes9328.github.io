@@ -7,102 +7,12 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
-/* Navbar Styling (iPad and Up) */
+/* Mobile */
 .navbar-container {
     width: 100%;
-    height: 7vh;
-    background-color: #333A42;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    color: #F1ECE9;
-}
-
-.navbar-main-design {
-    width: 60%;
-    margin-left: 20%;
-}
-
-.navbar-main-design > ul {
+    height: 10vh;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-}
-
-.navbar-main-design > ul > a {
-    color: #F1ECE9;
-    text-decoration: none;
-}
-
-.navbar-main-design > ul > a :hover {
-    color: #D7443F;
-    cursor: pointer;
-    transform: 5px;
-}
-
-/* Mobile Navbar */
-.menu-patty-container {
-    display: inline-block;
-    width: 40px;
-    margin-right: 20px;
-}
-
-.menu-patty-container > img {
-    width: 100%;
-    height: 100%;
-}
-
-.drop-down {
-    width: 100%;
-    height: 25vh;
-    background-color: black;
-    position: fixed;
-    top: 6.8vh;
-    right: 0px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    z-index: 1;
-    animation-name: slideDown;
-    animation-duration: .1s;
-}
-
-.drop-down > section {
-    width: 100%;
-    height: 100%;
-    color: white;
-}
-
-/* Animations */
-@keyframes slideDown{
-    0% {height: 3vh}
-    25% {height: 7vh}
-    50% {height: 15vh}
-    75% {height: 20vh}
-    100% {height: 25vh}
-}
-
-/* Media Queries */
-@media only screen and (max-width: 767px){
-    .navbar-container {
-        justify-content: flex-end;
-    }
-
-    .navbar-main-design {
-        display: none;
-    }
-}
-
-@media only screen and (min-width: 768px){
-    .nav-menu-dropdown-container {
-        display: none;
-    }
-}
-
-@media only screen and (min-width: 1024px){
-    .navbar-main-design {
-        width: 30%;
-        margin-left: 35%;
-    }
 }

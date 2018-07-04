@@ -38,7 +38,11 @@ body {
 }
 
 .parallax-title-container > h1 {
-    font-size: 28px;
+    font-size: 30px;
+}
+
+.parallax-title-container > h2 {
+    font-size: 20px;
 }
 
 .parallax-title-container > hr {
@@ -85,12 +89,6 @@ body {
     position: absolute;
     left: 35%;
     top: 40%;
-}
-
-.navbar-container {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0px;
 }
 
 /* What I Do Section */
@@ -1776,6 +1774,7 @@ body {
 .snowboard-hobby-container > h1 {
     font-size: 35px;
     color: #D7443F;
+    margin-top: 5%;
 }
 
 .snowboard-hobby-container > p {
